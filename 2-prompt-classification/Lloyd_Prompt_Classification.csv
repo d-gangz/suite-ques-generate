@@ -1,0 +1,46 @@
+Category,Instructions,Freeform prompt examples,Prompts in our library ,Tools to call,Notes
+Seek advice or guidance,"When the user is seeking peer insights, market practice, benchmarks, or real-world examples from other members. These are ""how are other companies handling this?"" or ""what do you recommend?"" type questions.","Has anyone recently updated their vendor due diligence checklist for AI-related risks?
+How are other GCs approaching remote work policies for international contractors?
+What’s the market standard for SaaS indemnification caps right now?",Leverage the Braintrust for advice,Braintrust search,
+Research a topic,"When the user is asking for help gathering information, compiling research, or understanding best practices on a specific legal or business topic. This includes horizon scanning, preparing board updates, or briefing notes.","What’s the latest on AI regulations globally?
+Research and summarize market practice for DPA clauses
+Give me an overview of ESG reporting requirements in the U.S. and Europe.",,Braintrust search,
+Find a vendor or outside counsel,"When the user is looking for a vendor, law firm, or outside counsel recommendation for a specific legal need or service.","Can you recommend a law firm with expertise in international data transfers?
+Who’s the best vendor for contract lifecycle management software for a mid-size legal team?",Find the best vendor or outside counsel,Braintrust search,
+Find a member with expertise in a topic,When the user wants to connect with another member who has specialized knowledge or experience,"Who in the community has experience managing whistleblower hotline programs?
+I’m looking for someone who has negotiated complex licensing agreements in biotech.",Suggest peers to connect with,Braintrust search,
+Find members with certain profile attributes,"When the user asks to identify members based on role, company, location, or expertise, not for advice but for networking or outreach (e.g., ""Who’s in biotech compliance?"" or ""Find GCs in fintech"").","Which members live near me?
+Which members in NY are in the crypto industry?
+Give me a list of the most experienced GCs in TechGC in the US
+Give me the list of members that are also in the AI special interest group",None,Member profile search,
+Brainstorm an idea,"When the user asks the AI to brainstorm, role-play, pressure test a decision, or explore trade-offs—these are open-ended discussions where the user wants the AI's perspective, not a document or fact.","Help me think through whether it’s better to settle or litigate this breach of contract claim.
+If you were in my position, what questions would you ask before approving this data-sharing agreement?
+Can you walk me through how a regulator might interpret this clause under U.S. antitrust laws?
+I’m leaning toward accepting this indemnity clause—can you play devil’s advocate and tell me why I shouldn’t?",Refine strategy through deep questioning,,
+Review a document,"When the user asks for help analyzing, summarizing, flagging issues, or explaining clauses in an attached contract, policy, or other legal document. If no document is attached, prompt the user to upload it.","Can you flag any indemnification clauses in this contract and explain their implications?
+Can you summarize the termination clause in this contract?
+Is this data retention policy aligned with GDPR and CCPA?
+Are there any potential FCPA compliance issues in this sales playbook?","Review a Data Processing Agreement
+Review a vendor agreement",,
+Draft a document,"When the user asks for help writing, drafting, or preparing legal documents, templates, clauses, letters, or terms from scratch.","Draft a standard mutual NDA we can use with potential vendors.
+Write a termination clause for a supplier contract that gives us 30 days’ notice without cause.
+Prepare a letter to notify a contractor of a breach under the terms of their agreement.
+Put together terms and conditions for a beta software program we're offering to select customers.","Draft a Request for Proposal
+Draft a Non-Disclosure Agreement
+Draft board minutes",,
+Look up and summarize a law or regulation,"When the user asks for a plain-language summary or explanation of a specific law, regulation, or policy. This includes compliance requirements and ""what does this mean"" type questions.","Summarize the key obligations for data controllers under GDPR.
+Explain California’s new climate disclosure law in plain English.
+Give me a quick rundown of the SEC's new cybersecurity disclosure rules.","Summarize a new law, regulation, or case decision",,
+Summarize or edit content,"When the user requests a summary, rephrasing, polishing, or editing of text they've provided, including emails, memos, or drafts.","Summarize the key obligations and risks in this licensing agreement.
+Can you provide a plain-language summary of this compliance policy for non-legal stakeholders?
+Edit this policy to align with our company’s tone of voice while maintaining legal accuracy.
+Can you give me a plain-language summary of the Corporate Transparency Act and how it affects our reporting obligations?",None,,
+Ask general questions about the community or membership,"When the user asks about membership, platform access, pricing, joining the community, or The Suite itself (e.g., ""How do I invite a colleague?"" or ""What’s included in membership?"").","How do I cancel my subscription or pause it temporarily?
+How do I upgrade my account to include more users?
+Can you tell me when my subscription is set to renew?",None,Membership assistant,We’ll have all the docs for its knowledge base in Drive. Kiran built this customGPT does does something similar. 
+Find info on an upcoming event ,"When the user asks for dates, details, or RSVP links for upcoming events hosted by The Suite or the community.","When is the next event in SF?
+I'm going to an event in NY next month, what are the roundtable topics?
+I'm attending the crypto webinar this week, what time does it start?",None,Upcoming events assistant,"classify prompts like this and direct them to the ‘Event’ link in the left nav. 
+"
+Redact a document,When the user asks to redact a document,"Can you redact this document?
+Redact this vendor agreement",None,,"We should redact PII, financial info, and other common redacted info from docs. The redaction should look like [REDACTED] and should be bolded when a member downloads the redacted document. Nothing else in the document should be changed."

@@ -1,0 +1,35 @@
+{
+  "legal_dimensions": {
+    "Legal Topic": [
+      "Commercial Contracts",
+      "Employment & HR",
+      "Product Counseling",
+      "Intellectual Property",
+      "Regulatory / Compliance",
+      "Corporate Governance",
+      "Disputes & Litigation",
+      "General / Other"
+    ],
+    "Intent Type": [
+      "Ask for recommendation",
+      "Interpret legal requirement",
+      "Draft or review a document",
+      "Learn from others / Benchmarking",
+      "General advice / exploratory"
+    ],
+    "Jurisdiction": [
+      "United States",
+      "California",
+      "New York",
+      "Europe / UK",
+      "UAE / International",
+      "Unspecified / General"
+    ],
+    "Query Clarity": [
+      "Clear and focused",
+      "Moderately clear",
+      "Multi-part or exploratory",
+      "Vague or underspecified"
+    ]
+  }
+}
