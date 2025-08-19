@@ -63,9 +63,42 @@ Example structure:
 
 Refer to this for some dimensions you can reference.
 
-```value to insert
-here are some reference dimensions
-@1-discussion-forum/dimensions.json
+```json
+{
+  "dimensions": {
+    "Legal Topic": [
+      "Commercial Contracts",
+      "Employment & HR",
+      "Product Counseling",
+      "Intellectual Property",
+      "Regulatory / Compliance",
+      "Corporate Governance",
+      "Disputes & Litigation",
+      "General / Other"
+    ],
+    "Intent Type": [
+      "Ask for recommendation",
+      "Interpret legal requirement",
+      "Draft or review a document",
+      "Learn from others / Benchmarking",
+      "General advice / exploratory"
+    ],
+    "Jurisdiction": [
+      "United States",
+      "California",
+      "New York",
+      "Europe / UK",
+      "UAE / International",
+      "Unspecified / General"
+    ],
+    "Query Clarity": [
+      "Clear and focused",
+      "Moderately clear",
+      "Multi-part or exploratory",
+      "Vague or underspecified"
+    ]
+  }
+}
 ```
 
 After the JSON analysis, provide a summary of your findings in the following format:
