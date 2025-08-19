@@ -1,0 +1,118 @@
+{
+    "Intent & Task Type": [
+      {
+        "dimension": "Seeking Referrals & Recommendations",
+        "description": "Users are looking for direct recommendations for specific service providers, tools, or counsel. These requests are often highly specific regarding location, expertise, and cost-effectiveness.",
+        "examples": [
+          "I'm looking to enforce a contract against a customer, and we're past the point of a debt collection agency. I typically use Foley for my outside counsel needs, but the claim against this customer is lower dollar value so looking for a mid-size firm or smaller. Austin is preferred, but Dallas is also acceptable. Thank you in advance! (In the alternative, the customer is based in Massachusetts, so a referral in that jurisdiction may also be helpful.) ",
+          "I am looking for a good, reasonably priced commercial litigator in Los Angeles, CA. Please send through any recommendations. ",
+          "I'd appreciate recommendations for a recruiter in San Francisco who can help with our search for a senior commercial counsel in the tech/cybersecurity space. Thanks in advance. "
+        ]
+      },
+      {
+        "dimension": "Benchmarking & Peer Insights",
+        "description": "Users are seeking to understand common practices, market standards, or how other companies in their peer group handle a particular issue. This is about validating an approach or gathering data points.",
+        "examples": [
+          "Whats's people's position on giving out your 409a to investors who don't have entrenched information rights? ",
+          "For those of you using ChatGPT Enterprise or Perplexity Pro, I'm curious--did you negotiate the agreement, or just take it off the shelf? ",
+          "We are currently reevaluating our outside counsel. Does anyone have any advice on or template for extending an RFP to various firms? Thanks!"
+        ]
+      },
+      {
+        "dimension": "Seeking Templates & Precedents",
+        "description": "Users are requesting sample documents, policies, checklists, or templates to use as a starting point for their own work. This helps them avoid starting from scratch.",
+        "examples": [
+          "Does anyone have a policy or guardrails re: settlement authority as the GC they are willing to share. ",
+          "Has anyone developed their own internal training that would comply with this requirement that they'd be willing to share? ",
+          "I am looking for a straightforward AI policy. If anyone has one that are willing to share, please send through. "
+        ]
+      },
+      {
+        "dimension": "Problem Solving & Strategic Advice",
+        "description": "Users present a complex scenario or challenge and seek strategic advice, frameworks, or potential solutions from their peers. These are less about a simple answer and more about a thought process.",
+        "examples": [
+          "What strategies have other software companies used to attract on-prem customer to their cloud offerings / to boost the adoption of cloud features by on-prem customers? I would be interested in any recommendations on how to efficiently manage the legal and compliance challenges of turning on-prem customers into cloud users, in particular, when \"cloud add-ons\" are made available to existing on-prem customers who don't yet have cloud terms, data processing agreements, infosec schedules, data transfer clauses, etc., how to palliate those gaps effectively.   * Could \"click-through\" processes executed by IT admins to accept the software vendor's standard terms create enough legal certainty even in cases where those standard terms would significantly alter / override hard-negotiated agreements in place?   * The idea of the business is to make the cloud features available to the customers' IT admins, and have them click through the cloud onboarding process, asking them to represent that they have the legal authority to do so. We as the legal team don't think that this strategy legally bulletproof, but the business doesn't want to introduce \"legal friction\" into the product adoption process.   ",
+          "We received some aggressive messages from a software provider alleging that we are using several unlicensed copies of their software (we purchase 2 copies). Our IT team investigated and found no unlicensed copies. The software provider is refusing to provide any evidence to substantiate their allegation, and is now demanding a sweeping declaration from us that there are no breach of the licensing agreement and if a breach is subsequently found, we will be fully responsible etc. There is no obligation under the software agreement/EULA to provide such a declaration. My inclination is to provide a declaration that is far less sweeping, just stating the investigation that was carried out and the result. If anyone has experience in this area, I would be grateful for your thoughts. ",
+          "Has anyone navigated offering SaaS into China with only an outside presence? Have you developed a policy or framework to manage and track the associated regulatory, export control, or data localization risks, or a checklist to go through to approve deals? I would greatly appreciate any precedents."
+        ]
+      }
+    ],
+    "Request Specificity & Clarity": [
+      {
+        "dimension": "Highly Specified Request",
+        "description": "The user's need is well-defined with clear, actionable parameters such as jurisdiction, price point, firm size, and specific legal specialty.",
+        "examples": [
+          "Looking for UK counsel to assist with an investor-side late stage venture financing into a UK company (we are US based). Preferably a small shop that is responsive. ",
+          "Any recommendations for a small-midsize firm to be CO employment counsel? ",
+          "I'm looking for a patent attorney to help me review a possible infringement matter as it relates to one of our company's issued patents. Looking for someone who is practical and will help identify any blindspots and weaknesses in what I'm seeing with my untrained eyes. "
+        ]
+      },
+      {
+        "dimension": "Multi-Part & Complex Inquiry",
+        "description": "The user poses a series of related, detailed questions within a single query, often laying out a complex business scenario that requires a nuanced, multi-faceted response.",
+        "examples": [
+          "I'm working on updating my company's retention policies. Would appreciate if members of the community could share best practices for a clear and effective retention policy. I primarily have two questions:    * Is it better to have one universal policy or multiple policies for different types of data (i.e. one for employees, one for user data, etc.,)?   * When organizing the various retention periods for data obtained from the user what is best practice? Is it better to break-down the individual pieces of data we collect or should the schedule be organized by feature sets?   Any additional suggestions/guidance you have is welcome. Thank you in advance. ",
+          "Has anyone created a policy governing internal call recordings and transcriptions? This came up recently when an employee recorded a sensitive internal conversation without notice to others on the line. We are fully remote, so most of our conversations will happen in a context where recording is possible.  As a U.S.-only employer, our privacy policy already makes clear there's no expectation of privacy on company systems, so we're considering a notice-based model for internal calls (e.g. visual + verbal disclosure), rather than requiring express consent. Where we're getting stuck is how to handle sensitive conversations and internal power dynamics. For example:   * If a manager wants to record a challenging conversation with an employee (e.g. to document performance issues), can the employee opt out?   * What if the reverse is true, and an employee wants to record a call with a VP or senior leader during a sensitive conversation? Can the VP shut it down?    * Who and what determines whether a call can't be recorded?   * How do you guardrails to protect trust without creating a surveillance culture or chilling communications?     We're also exploring whether certain categories of conversations (e.g. HR, Legal, mental health support) should be categorically excluded or require advance approval (and from whom).  Would appreciate any thoughts on:   * Internal policies you've implemented and how they're working in practice   * What calls or conversations you never allow to be recorded   * How you balance transparency, documentation needs, and employee trust    * Any procedural controls that help avoid misuse or power imbalances   Thanks in advance. ",
+          "We are looking to expand into the UK primarily, but also the EU. I'm thinking about cross-border data transfers. Specifically, I'm weighing whether we should get a EU-US Data Privacy Framework (DPF) certification with the UK extension, or should we setup local AWS servers in the UK and EU. Does anyone else have experience with this? What should I be considering in making a decision? Thank you in advance! "
+        ]
+      },
+      {
+        "dimension": "Vague or Exploratory Inquiry",
+        "description": "The request is broad, open-ended, or lacks key details, indicating the user is in an early stage of research or problem definition and is looking for general direction.",
+        "examples": [
+          "Generative AI Playbook. ",
+          "Does anyone have a template they could share? ",
+          "I am looking for leads on an inexpensive commercial lawyer in Los Angeles. This is to help structure a simple investment into a startup, with some weird commercial quirks (equity to vest based on hitting various milestones relating to business origination and revenue). Thanks!"
+        ]
+      }
+    ],
+    "Domain & Subject Matter": [
+      {
+        "dimension": "Legal & Compliance Operations",
+        "description": "Focuses on the business of law, including technology (AI, CLM), process optimization, budgeting, team structure, vendor management, and overall departmental efficiency.",
+        "examples": [
+          "Looking for recommendations for LPOs located either in Eastern Europe or India. I'd also be curious if anyone is willing to share their experience working with an LPO vs fully automating via AI. Primarily, I'm looking for a company that excels in contract management, but open to other areas as well. ",
+          "Curious as to what people are using to track matters internally. We have SimpleLegal for eBilling but find it does not have the matter management capabilities and workflows/task management that is needed, so we have developed a centralized Smartsheet with dynamic views and automation for customer disputes, litigations, employment claims, and other HR/customer matters. It is working OK, but think we are nearing a point where we need to look for a more robust curated solution. Would love any recommendations! ",
+          "I have been considering what daily and routine legal tasks could be moved from a lawyer to a legal operations position that would be supported by legal tech. Some things that come to mind are NDA management/review using preconfigured approved forms and AI, some e-discovery tasks, etc. I would love to hear from personal experience whether/how creation of a legal operations position at your companies has taken workload off of lawyers to free them up to perform more high-value work. "
+        ]
+      },
+      {
+        "dimension": "Substantive Legal Practice Areas",
+        "description": "Relates to core legal disciplines such as corporate governance, M&A, intellectual property, litigation, employment law, and regulatory compliance.",
+        "examples": [
+          "Our company holds a Facility Clearance (FCL) for prime subcontracting govn't contracts, which of course requires us to designate a Senior Management Official (SMO).  The individual who would serve as SMO is unable to. It also practically does not make sense for that person. I can provide more details.  We've seen exception examples--like Raytheon/RTX, but our DCSA rep is holding firm and not allowing exceptions. Has anyone successfully worked with DCSA on exceptions or appeals? Any advice would be greatly appreciated. Thanks in advance! ",
+          "In connection with some internal reorganization, a couple of questions recently came up from our GPs about what other funds are doing:   * Who owns the management company at your fund -- all of the GPs collectively, or some subset of them (and if a subset, how is it determined)? Currently only two of our GPs own the management company, and we're considering changing that.         * What % of the capital commit are you seeing the GPs typically being responsible for in recent fundraises? (We used to do 5%, and at our last fundraise we stepped that down to 3%, but we're considering going even lower for the next fund.)   ",
+          "Does anyone have experience with operating in Lithuania? We have a small development team located there that we inherited through acquisition and would appreciate some perspective from others who have operated in country.  "
+        ]
+      },
+      {
+        "dimension": "Cross-Functional & Business Strategy",
+        "description": "Requests that extend beyond the legal department's typical purview, involving collaboration with or advice for other business units like Finance, Sales, HR, or Product on strategic initiatives.",
+        "examples": [
+          "My finance / accounting team is vetting FP&A software for a Microsoft-based shop in the manufacturing industry. Although this isn't legal focused, does anyone have any recommendations for FP&A software (perhaps you have heard how much your finance / accounting team loves a particular solution)? Bonus points if it integrates well with a manufacturing operation. ",
+          "I'm currently seeking a highly experienced consultant who specializes in designing and optimizing compensation plans for B2B sales teams. We're aiming to ensure our incentive structures drive performance, align with business goals, and attract top sales talent. If you've worked with or know a trusted expert in sales compensation strategy--especially someone familiar with B2B sales environments--I'd greatly appreciate your referrals.      Thank you in advance for your recommendations! ",
+          "I'm going to be running an icebreaker session for a large management team (the team under our exec team) and wondered if anyone had any useful exercises they'd used or seen in these sessions? Looking for it to be creative, not too corporate, but actually useful in terms of driving some business outcome despite it being an opening session. Oh, and fun! "
+        ]
+      }
+    ],
+    "User & Contextual Profile": [
+      {
+        "dimension": "Company-Specific Context",
+        "description": "The user provides critical context about their company's stage (e.g., startup, late-stage, public), industry (e.g., SaaS, fintech, hardware), or specific situation (e.g., PE-backed, high-growth) that shapes the nature of the request.",
+        "examples": [
+          "Our company currently still uses long-form MSAs for commercial contracting. This is causing some friction in the sales cycle, and I think somewhat unnecessary reviews and and redlines by prospects. I am putting together a strategy for moving to an Order Form + online T&Cs format. Has anyone here done something similar for their business? If so, I'm looking for any data (even if just anecdotal) on the impact this may have had, e.g. fewer contracts requiring negotiation / legal review, reduced negotiation cycle by x% etc. The business sells access to carbon market data via a SaaS-type platform, with some pro-serv. ",
+          "I'm looking for insights on how other teams manage and streamline beta programs, especially in complex SaaS environments. We're a SaaS company that often runs multiple beta programs at once, led by different cross-functional teams. One of our key requirements is that customers must accept our beta terms before participating. This is straightforward for those on our online terms of service, but historically, we didn't embed beta terms into our MSA -- which has led to a lot of manual work. Right now, it's operationally burdensome to track who has accepted the beta terms, since ownership varies by team and there's no standardized intake or tracking process. As our customer base grows, it's becoming increasingly difficult to maintain consistency and compliance.   How did you streamline customer opt-ins and legal acceptance across beta programs?   Did you centralize intake or automate verification?   Any tools, processes, or organizational models that worked well?      Would appreciate any tips or lessons learned. Thanks in advance!   Bhawana ",
+          "We're lucky to have been tagged with completing and filing Form SLT with the Treasury Department every month. It's not a huge lift but we'd like to focus our compliance resources elsewhere. Has anyone found a vendor to help them with this monthly filing? We've asked our compliance consultant and they don't do it."
+        ]
+      },
+      {
+        "dimension": "Personal or Pro Bono Request",
+        "description": "The user is making a request on behalf of a third party, such as a friend, family member, or colleague, or for a pro bono matter. These queries are distinct from the user's official duties at their company.",
+        "examples": [
+          "A friend is working on his fund 2 and is thinking about an alternative fund structure for it. Something like a holdco/evergreen model or consulting + GP structure. He's not wedded to any of those, but feels like his current counsel is very \"traditional structure\" focused and can't really help him thinking through all these options.  Does anyone have someone for these more alternative fund structures? ",
+          "I am looking for some recommendations for an employee-side employment counsel in Washington State who could help a senior employee at a large technology company with some conduct that appears to be age-related discrimination. This would be a pay-out-of-pocket situation so appreciate recommendations for skilled attorneys who might also be somewhat cost effective. ",
+          "A friend is divorcing her husband who lived in the NYC Metro area for many years, was last seen in North Carolina and is incognito moving north. She needs to serve him divorce papers. Anyone have a good skip tracing company to track him down? Not making this up! "
+        ]
+      }
+    ]
+  }

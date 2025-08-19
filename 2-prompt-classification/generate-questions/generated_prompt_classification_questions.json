@@ -1,0 +1,614 @@
+{
+  "questions": [
+    {
+      "question": "Looking for recommendations on negotiating enterprise SaaS agreements: are other GCs at high-growth companies carving out SLA remedies (service credits or termination rights) from the overall liability cap, or keeping all remedies subject to the aggregate cap tied to fees? Any market benchmarks for credit formulas (% of monthly fees, max months) and sample carve-out language?",
+      "category_info": {
+        "category": "Seek advice or guidance",
+        "instruction": "When the user is seeking peer insights, market practice, benchmarks, or real-world examples from other members. These are \"how are other companies handling this?\" or \"what do you recommend?\" type questions.",
+        "examples": [
+          "Has anyone recently updated their vendor due diligence checklist for AI-related risks?",
+          "How are other GCs approaching remote work policies for international contractors?",
+          "What's the market standard for SaaS indemnification caps right now?"
+        ]
+      }
+    },
+    {
+      "question": "Need to prepare a 10‑minute board briefing — can someone summarize the current global regulatory landscape for generative AI (key pending laws in the US, EU, UK, and APAC), recent enforcement trends we should call out, and practical mitigations for product, privacy, and compliance teams? Appreciate sources or a short template.",
+      "category_info": {
+        "category": "Research a topic",
+        "instruction": "When the user is asking for help gathering information, compiling research, or understanding best practices on a specific legal or business topic. This includes horizon scanning, preparing board updates, or briefing notes.",
+        "examples": [
+          "What's the latest on AI regulations globally?",
+          "Research and summarize market practice for DPA clauses",
+          "Give me an overview of ESG reporting requirements in the U.S. and Europe."
+        ]
+      }
+    },
+    {
+      "question": "Need recommendations for outside counsel with deep experience handling cross-border M&A antitrust clearances (EU, UK, US) for a Series D SaaS scale-up—ideally firms that offer fixed-fee filing options and work tightly with in-house teams. Who would you recommend?",
+      "category_info": {
+        "category": "Find a vendor or outside counsel",
+        "instruction": "When the user is looking for a vendor, law firm, or outside counsel recommendation for a specific legal need or service.",
+        "examples": [
+          "Can you recommend a law firm with expertise in international data transfers?",
+          "Who's the best vendor for contract lifecycle management software for a mid-size legal team?"
+        ]
+      }
+    },
+    {
+      "question": "Looking for a fellow GC/CLO who’s negotiated enterprise AI vendor agreements for a public or late‑stage SaaS company—specifically around data licensing for model training, IP ownership, liability caps, and breach/incident obligations. Any introductions or recent templates/pitfalls to watch for? Appreciate any intros.",
+      "category_info": {
+        "category": "Find a member with expertise in a topic",
+        "instruction": "When the user wants to connect with another member who has specialized knowledge or experience",
+        "examples": [
+          "Who in the community has experience managing whistleblower hotline programs?",
+          "I'm looking for someone who has negotiated complex licensing agreements in biotech."
+        ]
+      }
+    },
+    {
+      "question": "Looking to connect with current GCs/CLOs or Heads of Legal in the Bay Area at fintech/payments companies (Series B+ startups or public firms) who have prior VC-backed exits or deep payments/regulatory experience — who in the L Suite fits that profile and is open to an intro?",
+      "category_info": {
+        "category": "Find members with certain profile attributes",
+        "instruction": "When the user asks to identify members based on role, company, location, or expertise, not for advice but for networking or outreach (e.g., \"Who's in biotech compliance?\" or \"Find GCs in fintech\").",
+        "examples": [
+          "Which members live near me?",
+          "Which members in NY are in the crypto industry?",
+          "Give me a list of the most experienced GCs in TechGC in the US",
+          "Give me the list of members that are also in the AI special interest group"
+        ]
+      }
+    },
+    {
+      "question": "Need help thinking through whether we should require mandatory arbitration plus a class/collective action waiver in our updated customer terms for both US and EU users. If you were in my seat as GC at a high‑growth SaaS, what trade‑offs and enforcement risks would you flag (cross‑border enforceability, regulator/backlash risk, impact on fundraising/exit, cost models, user trust), and what internal stakeholders and specific questions should I surface before deciding? Any perspectives appreciated.",
+      "category_info": {
+        "category": "Brainstorm an idea",
+        "instruction": "When the user asks the AI to brainstorm, role-play, pressure test a decision, or explore trade-offs—these are open-ended discussions where the user wants the AI's perspective, not a document or fact.",
+        "examples": [
+          "Help me think through whether it's better to settle or litigate this breach of contract claim.",
+          "If you were in my position, what questions would you ask before approving this data-sharing agreement?",
+          "Can you walk me through how a regulator might interpret this clause under U.S. antitrust laws?",
+          "I'm leaning toward accepting this indemnity clause—can you play devil's advocate and tell me why I shouldn't?"
+        ]
+      }
+    },
+    {
+      "question": "Can you help review an MSA (SaaS + professional services) I’m about to upload — specifically flag any problematic indemnity and IP assignment language, gaps in the DPA/data-processing clauses, onerous auto-renewal or termination/transition obligations, and suggest concise redlines or fallback positions?",
+      "category_info": {
+        "category": "Review a document",
+        "instruction": "When the user asks for help analyzing, summarizing, flagging issues, or explaining clauses in an attached contract, policy, or other legal document. If no document is attached, prompt the user to upload it.",
+        "examples": [
+          "Can you flag any indemnification clauses in this contract and explain their implications?",
+          "Can you summarize the termination clause in this contract?",
+          "Is this data retention policy aligned with GDPR and CCPA?",
+          "Are there any potential FCPA compliance issues in this sales playbook?"
+        ]
+      }
+    },
+    {
+      "question": "Can you help me draft a short-form mutual NDA and a one‑page SOW template for beta customers of our AI platform? Need the NDA to cover training data and model outputs, permitted uses, a residuals carve‑out, 12‑month confidentiality term, injunctive relief, and a 30‑day mutual termination for convenience; the SOW should include a simple scope, deliverables, acceptance criteria, fees, and a narrow IP/data license backstop. Thanks!",
+      "category_info": {
+        "category": "Draft a document",
+        "instruction": "When the user asks for help writing, drafting, or preparing legal documents, templates, clauses, letters, or terms from scratch.",
+        "examples": [
+          "Draft a standard mutual NDA we can use with potential vendors.",
+          "Write a termination clause for a supplier contract that gives us 30 days' notice without cause.",
+          "Prepare a letter to notify a contractor of a breach under the terms of their agreement.",
+          "Put together terms and conditions for a beta software program we're offering to select customers."
+        ]
+      }
+    },
+    {
+      "question": "Need a plain-English summary of the EU AI Act tailored for a US-headquartered, high-growth SaaS company—what specific obligations will apply to our product (model classification, mandatory risk assessments, documentation/recordkeeping), what timelines and enforcement risks should the board expect, and which parts require immediate attention from legal, product, and vendor management?",
+      "category_info": {
+        "category": "Look up and summarize a law or regulation",
+        "instruction": "When the user asks for a plain-language summary or explanation of a specific law, regulation, or policy. This includes compliance requirements and \"what does this mean\" type questions.",
+        "examples": [
+          "Summarize the key obligations for data controllers under GDPR.",
+          "Explain California's new climate disclosure law in plain English.",
+          "Give me a quick rundown of the SEC's new cybersecurity disclosure rules."
+        ]
+      }
+    },
+    {
+      "question": "Need help editing a draft master services agreement — can you (1) rewrite the liability and IP provisions into concise, board‑level language suitable for our CFO and legal committee, (2) summarize the remaining commercial and litigation risks in two bullets, and (3) suggest conservative redlines we can send to procurement? Deadline is tomorrow. Appreciate the help.",
+      "category_info": {
+        "category": "Summarize or edit content",
+        "instruction": "When the user requests a summary, rephrasing, polishing, or editing of text they've provided, including emails, memos, or drafts.",
+        "examples": [
+          "Summarize the key obligations and risks in this licensing agreement.",
+          "Can you provide a plain-language summary of this compliance policy for non-legal stakeholders?",
+          "Edit this policy to align with our company's tone of voice while maintaining legal accuracy.",
+          "Can you give me a plain-language summary of the Corporate Transparency Act and how it affects our reporting obligations?"
+        ]
+      }
+    },
+    {
+      "question": "How do I add an additional seat for my deputy and configure SSO/SCIM provisioning—will adding users mid‑billing cycle prorate the invoice or require a contract amendment? Appreciate any guidance.",
+      "category_info": {
+        "category": "Ask general questions about the community or membership",
+        "instruction": "When the user asks about membership, platform access, pricing, joining the community, or The Suite itself (e.g., \"How do I invite a colleague?\" or \"What's included in membership?\").",
+        "examples": [
+          "How do I cancel my subscription or pause it temporarily?",
+          "How do I upgrade my account to include more users?",
+          "Can you tell me when my subscription is set to renew?"
+        ]
+      }
+    },
+    {
+      "question": "I'll be in NYC next month—does anyone have the confirmed date/time, the agenda or roundtable topics (esp. AI/governance), and the RSVP link for The Suite's upcoming GC roundtable? Appreciate it.",
+      "category_info": {
+        "category": "Find info on an upcoming event",
+        "instruction": "When the user asks for dates, details, or RSVP links for upcoming events hosted by The Suite or the community.",
+        "examples": [
+          "When is the next event in SF?",
+          "I'm going to an event in NY next month, what are the roundtable topics?",
+          "I'm attending the crypto webinar this week, what time does it start?"
+        ]
+      }
+    },
+    {
+      "question": "Need help redacting a vendor MSA — can you remove pricing, customer names, and any IP/confidentiality provisions and return a clean version suitable for external distribution? Thanks!",
+      "category_info": {
+        "category": "Redact a document",
+        "instruction": "When the user asks to redact a document",
+        "examples": [
+          "Can you redact this document?",
+          "Redact this vendor agreement"
+        ]
+      }
+    },
+    {
+      "question": "Looking for recommendations on how GCs are structuring indemnity and liability caps in enterprise AI licensing deals—particularly where the vendor’s model is trained on customer data. What market cap ranges, common carve-outs (IP infringement, data breaches, regulatory fines), and practical negotiation levers are you seeing across startups vs. public companies? Any sample language or recent compromises would be helpful.",
+      "category_info": {
+        "category": "Seek advice or guidance",
+        "instruction": "When the user is seeking peer insights, market practice, benchmarks, or real-world examples from other members. These are \"how are other companies handling this?\" or \"what do you recommend?\" type questions.",
+        "examples": [
+          "Has anyone recently updated their vendor due diligence checklist for AI-related risks?",
+          "How are other GCs approaching remote work policies for international contractors?",
+          "What's the market standard for SaaS indemnification caps right now?"
+        ]
+      }
+    },
+    {
+      "question": "Need a concise briefing on emerging global AI and generative-model regulations — what are the key compliance risks and substantive differences across the US, EU (AI Act), UK and major APAC jurisdictions, and what should I include as board-level talking points for our board packet next month? Appreciate sources or short summaries.",
+      "category_info": {
+        "category": "Research a topic",
+        "instruction": "When the user is asking for help gathering information, compiling research, or understanding best practices on a specific legal or business topic. This includes horizon scanning, preparing board updates, or briefing notes.",
+        "examples": [
+          "What's the latest on AI regulations globally?",
+          "Research and summarize market practice for DPA clauses",
+          "Give me an overview of ESG reporting requirements in the U.S. and Europe."
+        ]
+      }
+    },
+    {
+      "question": "Looking for recommendations for outside counsel with strong experience handling cross-border data privacy enforcement investigations (EU & US) for a mid-market SaaS company — ideally a firm that understands incident response, DPIAs, and can move quickly with transparent pricing. Any firms you've engaged and would recommend?",
+      "category_info": {
+        "category": "Find a vendor or outside counsel",
+        "instruction": "When the user is looking for a vendor, law firm, or outside counsel recommendation for a specific legal need or service.",
+        "examples": [
+          "Can you recommend a law firm with expertise in international data transfers?",
+          "Who's the best vendor for contract lifecycle management software for a mid-size legal team?"
+        ]
+      }
+    },
+    {
+      "question": "Need to connect with a GC/CLO who’s run the end-to-end rollout of a global whistleblower hotline and investigation process—ideally someone who handled local counsel coordination, data-transfer/GDPR concerns across EU/UK/APAC, and board reporting. Any recommendations or intros?",
+      "category_info": {
+        "category": "Find a member with expertise in a topic",
+        "instruction": "When the user wants to connect with another member who has specialized knowledge or experience",
+        "examples": [
+          "Who in the community has experience managing whistleblower hotline programs?",
+          "I'm looking for someone who has negotiated complex licensing agreements in biotech."
+        ]
+      }
+    },
+    {
+      "question": "Looking to connect with GCs/CLOs based in London who work at Series B+ fintechs and have direct experience launching payments products or managing PSP/regulatory approvals — who in the network matches that profile? Appreciate any intros.",
+      "category_info": {
+        "category": "Find members with certain profile attributes",
+        "instruction": "When the user asks to identify members based on role, company, location, or expertise, not for advice but for networking or outreach (e.g., \"Who's in biotech compliance?\" or \"Find GCs in fintech\").",
+        "examples": [
+          "Which members live near me?",
+          "Which members in NY are in the crypto industry?",
+          "Give me a list of the most experienced GCs in TechGC in the US",
+          "Give me the list of members that are also in the AI special interest group"
+        ]
+      }
+    },
+    {
+      "question": "Need help deciding whether to settle or litigate a multi‑million consumer data‑breach claim where insurance coverage is unclear, a regulator may open an enforcement action, and the board is pressing to minimize business disruption — if you were the GC, what hierarchy of factors would you weigh (financial exposure, precedent/risk to product roadmap, regulatory optics, insurer cooperation, employee distraction), which non‑monetary settlement terms would you insist on, and how would you frame your recommendation to the board?",
+      "category_info": {
+        "category": "Brainstorm an idea",
+        "instruction": "When the user asks the AI to brainstorm, role-play, pressure test a decision, or explore trade-offs—these are open-ended discussions where the user wants the AI's perspective, not a document or fact.",
+        "examples": [
+          "Help me think through whether it's better to settle or litigate this breach of contract claim.",
+          "If you were in my position, what questions would you ask before approving this data-sharing agreement?",
+          "Can you walk me through how a regulator might interpret this clause under U.S. antitrust laws?",
+          "I'm leaning toward accepting this indemnity clause—can you play devil's advocate and tell me why I shouldn't?"
+        ]
+      }
+    },
+    {
+      "question": "Need help reviewing an MSA for a US-based SaaS company — can you flag any indemnities, limitation-of-liability, IP assignment, termination-for-convenience, and cross‑border data‑transfer clauses that could create regulatory or financial risk (GDPR/CCPA/FCPA implications), summarize the practical impact, and propose concise replacement language? I can upload the contract.",
+      "category_info": {
+        "category": "Review a document",
+        "instruction": "When the user asks for help analyzing, summarizing, flagging issues, or explaining clauses in an attached contract, policy, or other legal document. If no document is attached, prompt the user to upload it.",
+        "examples": [
+          "Can you flag any indemnification clauses in this contract and explain their implications?",
+          "Can you summarize the termination clause in this contract?",
+          "Is this data retention policy aligned with GDPR and CCPA?",
+          "Are there any potential FCPA compliance issues in this sales playbook?"
+        ]
+      }
+    },
+    {
+      "question": "Need help drafting a short-form beta SaaS pilot agreement and accompanying data processing addendum for selective enterprise customers — it should cover: confidentiality, customer data ownership (customer retains data; we retain platform IP), rights to use customer feedback, a 30‑day termination for convenience, limited warranty/disclaimer for beta features, liability cap tied to pilot fees, indemnities scoped for third‑party IP claims, basic SLAs/service credits, SOC 2 compliance commitment, EU data‑residency option, and a clause allowing conversion to a full commercial agreement — can you provide a clean template with key negotiation redlines and optional language for public sector or highly regulated customers? Appreciate the help.",
+      "category_info": {
+        "category": "Draft a document",
+        "instruction": "When the user asks for help writing, drafting, or preparing legal documents, templates, clauses, letters, or terms from scratch.",
+        "examples": [
+          "Draft a standard mutual NDA we can use with potential vendors.",
+          "Write a termination clause for a supplier contract that gives us 30 days' notice without cause.",
+          "Prepare a letter to notify a contractor of a breach under the terms of their agreement.",
+          "Put together terms and conditions for a beta software program we're offering to select customers."
+        ]
+      }
+    },
+    {
+      "question": "Can someone help me understand, in plain English, the key obligations and trigger points under the EU Data Act for a US-based SaaS company that stores/processes EU customer data — specifically: when the law applies, differences in duties for controllers vs processors, data access/sharing requirements we’d need to operationalize, and material penalties or risks to watch for?",
+      "category_info": {
+        "category": "Look up and summarize a law or regulation",
+        "instruction": "When the user asks for a plain-language summary or explanation of a specific law, regulation, or policy. This includes compliance requirements and \"what does this mean\" type questions.",
+        "examples": [
+          "Summarize the key obligations for data controllers under GDPR.",
+          "Explain California's new climate disclosure law in plain English.",
+          "Give me a quick rundown of the SEC's new cybersecurity disclosure rules."
+        ]
+      }
+    },
+    {
+      "question": "Need help turning a 12‑page vendor master services agreement into a two‑page executive summary for our board meeting tomorrow — can you distill key obligations, termination triggers, indemnities, liability caps, data/privacy risk allocations, and any immediate red flags in plain English, and include suggested negotiation points and proposed redlines?",
+      "category_info": {
+        "category": "Summarize or edit content",
+        "instruction": "When the user requests a summary, rephrasing, polishing, or editing of text they've provided, including emails, memos, or drafts.",
+        "examples": [
+          "Summarize the key obligations and risks in this licensing agreement.",
+          "Can you provide a plain-language summary of this compliance policy for non-legal stakeholders?",
+          "Edit this policy to align with our company's tone of voice while maintaining legal accuracy.",
+          "Can you give me a plain-language summary of the Corporate Transparency Act and how it affects our reporting obligations?"
+        ]
+      }
+    },
+    {
+      "question": "What's the process for adding an additional seat to our company's L Suite membership (including SSO/SCIM setup), and will we be charged a prorated fee for the remainder of the billing cycle?",
+      "category_info": {
+        "category": "Ask general questions about the community or membership",
+        "instruction": "When the user asks about membership, platform access, pricing, joining the community, or The Suite itself (e.g., \"How do I invite a colleague?\" or \"What's included in membership?\").",
+        "examples": [
+          "How do I cancel my subscription or pause it temporarily?",
+          "How do I upgrade my account to include more users?",
+          "Can you tell me when my subscription is set to renew?"
+        ]
+      }
+    },
+    {
+      "question": "Heading to SF next month — is The Suite running a GC/CLO roundtable or networking dinner while I’m there? Looking for the date/time, agenda or roundtable topics, and the RSVP/registration link.",
+      "category_info": {
+        "category": "Find info on an upcoming event",
+        "instruction": "When the user asks for dates, details, or RSVP links for upcoming events hosted by The Suite or the community.",
+        "examples": [
+          "When is the next event in SF?",
+          "I'm going to an event in NY next month, what are the roundtable topics?",
+          "I'm attending the crypto webinar this week, what time does it start?"
+        ]
+      }
+    },
+    {
+      "question": "Need help redacting a vendor master agreement — can someone remove customer PII, sensitive pricing and internal contact details and return a clean PDF plus a redaction log (with the rationale for each removal) by COB?",
+      "category_info": {
+        "category": "Redact a document",
+        "instruction": "When the user asks to redact a document",
+        "examples": [
+          "Can you redact this document?",
+          "Redact this vendor agreement"
+        ]
+      }
+    },
+    {
+      "question": "Looking for recommendations on vendor contract treatment where a third‑party AI provider uses our customer data for model training—how are other GCs balancing IP/data ownership, indemnities, audit rights and liability caps? Any recent market‑accepted carve‑outs (e.g., for derivative outputs or model drift) or redlines/playbooks you can share? Appreciate any examples.",
+      "category_info": {
+        "category": "Seek advice or guidance",
+        "instruction": "When the user is seeking peer insights, market practice, benchmarks, or real-world examples from other members. These are \"how are other companies handling this?\" or \"what do you recommend?\" type questions.",
+        "examples": [
+          "Has anyone recently updated their vendor due diligence checklist for AI-related risks?",
+          "How are other GCs approaching remote work policies for international contractors?",
+          "What's the market standard for SaaS indemnification caps right now?"
+        ]
+      }
+    },
+    {
+      "question": "Need a concise briefing for our board in six weeks on generative AI risk and governance — can someone summarize the current regulatory landscape (US, EU, UK), emerging enforcement priorities, typical market practice for vendor contract clauses and data governance, and recommended board-level KPIs/next steps I can drop into a memo? Appreciate concise sources or templates.",
+      "category_info": {
+        "category": "Research a topic",
+        "instruction": "When the user is asking for help gathering information, compiling research, or understanding best practices on a specific legal or business topic. This includes horizon scanning, preparing board updates, or briefing notes.",
+        "examples": [
+          "What's the latest on AI regulations globally?",
+          "Research and summarize market practice for DPA clauses",
+          "Give me an overview of ESG reporting requirements in the U.S. and Europe."
+        ]
+      }
+    },
+    {
+      "question": "Need recommendations for outside counsel with deep crypto/fintech regulatory experience (US, UK, EU) — specifically firms that have handled crypto licensing, payments regulation, and sandbox/regulatory engagement for high-growth startups and are open to alternative fee arrangements. Any names or referrals?",
+      "category_info": {
+        "category": "Find a vendor or outside counsel",
+        "instruction": "When the user is looking for a vendor, law firm, or outside counsel recommendation for a specific legal need or service.",
+        "examples": [
+          "Can you recommend a law firm with expertise in international data transfers?",
+          "Who's the best vendor for contract lifecycle management software for a mid-size legal team?"
+        ]
+      }
+    },
+    {
+      "question": "Need to connect with a GC/CLO who’s led negotiating enterprise AI/vendor agreements — covering IP ownership, training-data use, audit and security rights, SLAs for model performance, liability caps, and EU AI Act compliance — ideally at a Series C+ SaaS or public tech company. Any recommendations or intros?",
+      "category_info": {
+        "category": "Find a member with expertise in a topic",
+        "instruction": "When the user wants to connect with another member who has specialized knowledge or experience",
+        "examples": [
+          "Who in the community has experience managing whistleblower hotline programs?",
+          "I'm looking for someone who has negotiated complex licensing agreements in biotech."
+        ]
+      }
+    },
+    {
+      "question": "Looking to connect with GCs or CLOs in the network who are currently at fintech or payments companies (startup through public) based in NYC or the Bay Area and who’ve led global data privacy or cross-border compliance programs — who fits that profile?",
+      "category_info": {
+        "category": "Find members with certain profile attributes",
+        "instruction": "When the user asks to identify members based on role, company, location, or expertise, not for advice but for networking or outreach (e.g., \"Who's in biotech compliance?\" or \"Find GCs in fintech\").",
+        "examples": [
+          "Which members live near me?",
+          "Which members in NY are in the crypto industry?",
+          "Give me a list of the most experienced GCs in TechGC in the US",
+          "Give me the list of members that are also in the AI special interest group"
+        ]
+      }
+    },
+    {
+      "question": "Playing devil’s advocate: we’re debating whether to litigate a high‑value trade‑secret misappropriation claim against a former senior engineer or take a quick settlement that preserves the IP but avoids cost, delay, and reputational risk. The board wants decisive action; investors worry about legal spend and distraction. If you were the CLO, what factual, legal, commercial and reputational trade‑offs would you pressure‑test before choosing litigation versus settlement, what thresholds would push you to litigate, and what settlement terms should you insist on to preserve future enforcement and deterrence? Appreciate any frameworks or key questions I should be asking.",
+      "category_info": {
+        "category": "Brainstorm an idea",
+        "instruction": "When the user asks the AI to brainstorm, role-play, pressure test a decision, or explore trade-offs—these are open-ended discussions where the user wants the AI's perspective, not a document or fact.",
+        "examples": [
+          "Help me think through whether it's better to settle or litigate this breach of contract claim.",
+          "If you were in my position, what questions would you ask before approving this data-sharing agreement?",
+          "Can you walk me through how a regulator might interpret this clause under U.S. antitrust laws?",
+          "I'm leaning toward accepting this indemnity clause—can you play devil's advocate and tell me why I shouldn't?"
+        ]
+      }
+    },
+    {
+      "question": "Need help reviewing a supplier master services agreement — can you flag any unusual liability or indemnity provisions (including caps, baskets, carve-outs for IP and data breaches), summarize termination triggers and post‑termination obligations, and call out any commercial risk areas we should negotiate? I can upload the redline now.",
+      "category_info": {
+        "category": "Review a document",
+        "instruction": "When the user asks for help analyzing, summarizing, flagging issues, or explaining clauses in an attached contract, policy, or other legal document. If no document is attached, prompt the user to upload it.",
+        "examples": [
+          "Can you flag any indemnification clauses in this contract and explain their implications?",
+          "Can you summarize the termination clause in this contract?",
+          "Is this data retention policy aligned with GDPR and CCPA?",
+          "Are there any potential FCPA compliance issues in this sales playbook?"
+        ]
+      }
+    },
+    {
+      "question": "Need assistance drafting a mutual NDA and accompanying data-processing addendum for engaging international vendors — must cover cross-border data transfers, EU SCCs or UK addendum fallback, export-control obligations, and an investor-sensitive IP carve-out. Can you share model clauses or a template we can adapt for both early-stage and public-company risk profiles? Appreciate any examples or pitfalls to avoid.",
+      "category_info": {
+        "category": "Draft a document",
+        "instruction": "When the user asks for help writing, drafting, or preparing legal documents, templates, clauses, letters, or terms from scratch.",
+        "examples": [
+          "Draft a standard mutual NDA we can use with potential vendors.",
+          "Write a termination clause for a supplier contract that gives us 30 days' notice without cause.",
+          "Prepare a letter to notify a contractor of a breach under the terms of their agreement.",
+          "Put together terms and conditions for a beta software program we're offering to select customers."
+        ]
+      }
+    },
+    {
+      "question": "Can someone give me a plain-English summary of the EU AI Act as it applies to cloud/SaaS vendors — specifically what qualifies as a high-risk system, what governance, documentation and conformity obligations we’d need to implement, and the key timelines and penalties? Need to brief the board next month; appreciate a concise breakdown.",
+      "category_info": {
+        "category": "Look up and summarize a law or regulation",
+        "instruction": "When the user asks for a plain-language summary or explanation of a specific law, regulation, or policy. This includes compliance requirements and \"what does this mean\" type questions.",
+        "examples": [
+          "Summarize the key obligations for data controllers under GDPR.",
+          "Explain California's new climate disclosure law in plain English.",
+          "Give me a quick rundown of the SEC's new cybersecurity disclosure rules."
+        ]
+      }
+    },
+    {
+      "question": "Can you help condense this vendor master services agreement into a one‑page executive summary for the board—plain English that calls out key obligations, indemnities, termination triggers, liability caps, data/security exposures, and any material commercial or regulatory risks, plus recommended next steps (e.g., negotiate, sign, escalate to external counsel)? We’re a late‑stage SaaS company and need it for next week’s packet. Appreciate the help.",
+      "category_info": {
+        "category": "Summarize or edit content",
+        "instruction": "When the user requests a summary, rephrasing, polishing, or editing of text they've provided, including emails, memos, or drafts.",
+        "examples": [
+          "Summarize the key obligations and risks in this licensing agreement.",
+          "Can you provide a plain-language summary of this compliance policy for non-legal stakeholders?",
+          "Edit this policy to align with our company's tone of voice while maintaining legal accuracy.",
+          "Can you give me a plain-language summary of the Corporate Transparency Act and how it affects our reporting obligations?"
+        ]
+      }
+    },
+    {
+      "question": "What's the process to add a deputy GC or external counsel to our L Suite membership, and does adding seats trigger immediate billing or apply at the next renewal? Appreciate any details on seat permissions and admin controls.",
+      "category_info": {
+        "category": "Ask general questions about the community or membership",
+        "instruction": "When the user asks about membership, platform access, pricing, joining the community, or The Suite itself (e.g., \"How do I invite a colleague?\" or \"What's included in membership?\").",
+        "examples": [
+          "How do I cancel my subscription or pause it temporarily?",
+          "How do I upgrade my account to include more users?",
+          "Can you tell me when my subscription is set to renew?"
+        ]
+      }
+    },
+    {
+      "question": "I'm attending the L Suite roundtable in SF next Thursday — can someone share the RSVP link, the start/end times, and the agenda (especially whether there will be breakout discussion on contract ops or cross-border data issues)?",
+      "category_info": {
+        "category": "Find info on an upcoming event",
+        "instruction": "When the user asks for dates, details, or RSVP links for upcoming events hosted by The Suite or the community.",
+        "examples": [
+          "When is the next event in SF?",
+          "I'm going to an event in NY next month, what are the roundtable topics?",
+          "I'm attending the crypto webinar this week, what time does it start?"
+        ]
+      }
+    },
+    {
+      "question": "Need assistance redacting a vendor agreement: can someone help remove PII, pricing, and sensitive operational/playbook clauses while preserving enforceability and clear change-tracking? Any recommended redaction checklist or annotated template?",
+      "category_info": {
+        "category": "Redact a document",
+        "instruction": "When the user asks to redact a document",
+        "examples": [
+          "Can you redact this document?",
+          "Redact this vendor agreement"
+        ]
+      }
+    },
+    {
+      "question": "Need recommendations on contractual and insurance protections when buying third‑party AI/ML models — what indemnity scope and cap (e.g., multiples of fees vs fixed dollar), common carve‑outs, and expected cyber/tech E&O limits are other GCs requiring nowadays? Any sample language or checklist people can share? Appreciate any examples.",
+      "category_info": {
+        "category": "Seek advice or guidance",
+        "instruction": "When the user is seeking peer insights, market practice, benchmarks, or real-world examples from other members. These are \"how are other companies handling this?\" or \"what do you recommend?\" type questions.",
+        "examples": [
+          "Has anyone recently updated their vendor due diligence checklist for AI-related risks?",
+          "How are other GCs approaching remote work policies for international contractors?",
+          "What's the market standard for SaaS indemnification caps right now?"
+        ]
+      }
+    },
+    {
+      "question": "Need to prepare a concise board briefing on emerging AI regulation—can someone summarize the material obligations, enforcement trends, and priority draft laws in the US, EU (AI Act), UK, and major APAC jurisdictions we should track over the next 12 months, plus recommended sources to cite? Appreciate any highlights for risk/compliance and contracting implications.",
+      "category_info": {
+        "category": "Research a topic",
+        "instruction": "When the user is asking for help gathering information, compiling research, or understanding best practices on a specific legal or business topic. This includes horizon scanning, preparing board updates, or briefing notes.",
+        "examples": [
+          "What's the latest on AI regulations globally?",
+          "Research and summarize market practice for DPA clauses",
+          "Give me an overview of ESG reporting requirements in the U.S. and Europe."
+        ]
+      }
+    },
+    {
+      "question": "Looking for outside counsel recommendations — small-to-mid boutique or firm teams with deep experience handling Series C+ cross-border employment and contractor classification issues for remote-first US tech companies, comfortable with fixed-fee arrangements and quick turnaround. Any referrals?",
+      "category_info": {
+        "category": "Find a vendor or outside counsel",
+        "instruction": "When the user is looking for a vendor, law firm, or outside counsel recommendation for a specific legal need or service.",
+        "examples": [
+          "Can you recommend a law firm with expertise in international data transfers?",
+          "Who's the best vendor for contract lifecycle management software for a mid-size legal team?"
+        ]
+      }
+    },
+    {
+      "question": "Looking to connect with a GC/CLO who’s led cross-border M&A integrations with a heavy focus on data privacy compliance and harmonizing equity plans — ideally at a high-growth SaaS or fintech. Who has recent hands-on experience with this?",
+      "category_info": {
+        "category": "Find a member with expertise in a topic",
+        "instruction": "When the user wants to connect with another member who has specialized knowledge or experience",
+        "examples": [
+          "Who in the community has experience managing whistleblower hotline programs?",
+          "I'm looking for someone who has negotiated complex licensing agreements in biotech."
+        ]
+      }
+    },
+    {
+      "question": "Looking for intros — which L Suite members are current GCs/CLOs at U.S.-based fintechs (Series B+ or public) located in NYC or San Francisco who have direct payments/regulatory enforcement experience? Appreciate any connections.",
+      "category_info": {
+        "category": "Find members with certain profile attributes",
+        "instruction": "When the user asks to identify members based on role, company, location, or expertise, not for advice but for networking or outreach (e.g., \"Who's in biotech compliance?\" or \"Find GCs in fintech\").",
+        "examples": [
+          "Which members live near me?",
+          "Which members in NY are in the crypto industry?",
+          "Give me a list of the most experienced GCs in TechGC in the US",
+          "Give me the list of members that are also in the AI special interest group"
+        ]
+      }
+    },
+    {
+      "question": "Need help thinking through whether to push back on a vendor’s broad IP indemnity in a strategic AI partnership we want to launch quickly—if you were my GC, what trade-offs would you weigh between shifting IP risk to the vendor, the likelihood and cost of claims, insurability/coverage limits, our product timelines and revenue targets, and potential pushback from the board or investors?",
+      "category_info": {
+        "category": "Brainstorm an idea",
+        "instruction": "When the user asks the AI to brainstorm, role-play, pressure test a decision, or explore trade-offs—these are open-ended discussions where the user wants the AI's perspective, not a document or fact.",
+        "examples": [
+          "Help me think through whether it's better to settle or litigate this breach of contract claim.",
+          "If you were in my position, what questions would you ask before approving this data-sharing agreement?",
+          "Can you walk me through how a regulator might interpret this clause under U.S. antitrust laws?",
+          "I'm leaning toward accepting this indemnity clause—can you play devil's advocate and tell me why I shouldn't?"
+        ]
+      }
+    },
+    {
+      "question": "Need assistance reviewing a customer Master Services Agreement—if I upload the contract, can you (1) flag any one‑sided indemnity, IP assignment, limitation of liability, data security/transfer, and audit clauses, (2) explain the legal and business risk of each, and (3) propose concise, negotiation‑ready redlines and talking points we can take to the other side? Appreciate pragmatic edits we can use with procurement.",
+      "category_info": {
+        "category": "Review a document",
+        "instruction": "When the user asks for help analyzing, summarizing, flagging issues, or explaining clauses in an attached contract, policy, or other legal document. If no document is attached, prompt the user to upload it.",
+        "examples": [
+          "Can you flag any indemnification clauses in this contract and explain their implications?",
+          "Can you summarize the termination clause in this contract?",
+          "Is this data retention policy aligned with GDPR and CCPA?",
+          "Are there any potential FCPA compliance issues in this sales playbook?"
+        ]
+      }
+    },
+    {
+      "question": "Need assistance drafting a termination-for-convenience clause for our vendor MSA — we're a growth-stage SaaS company onboarding multiple third-party providers and want a 60‑day no‑fault termination right that: (1) requires a defined wind‑down/transition plan and payment for work‑in‑progress, (2) obligates return/destruction of customer data and preserves confidentiality/IP, (3) includes a short cure period for breaches, and (4) limits post‑termination liability and remedies. Can you draft the clause plus a brief wind‑down SOW template and a recommended fallback for dispute resolution I can drop into our MSA? Appreciate any plug‑and‑play language.",
+      "category_info": {
+        "category": "Draft a document",
+        "instruction": "When the user asks for help writing, drafting, or preparing legal documents, templates, clauses, letters, or terms from scratch.",
+        "examples": [
+          "Draft a standard mutual NDA we can use with potential vendors.",
+          "Write a termination clause for a supplier contract that gives us 30 days' notice without cause.",
+          "Prepare a letter to notify a contractor of a breach under the terms of their agreement.",
+          "Put together terms and conditions for a beta software program we're offering to select customers."
+        ]
+      }
+    },
+    {
+      "question": "Can someone help me understand the EU AI Act in plain English — specifically: which obligations apply to a US‑based SaaS vendor that builds or embeds AI (provider vs deployer roles), how “high‑risk” systems are defined, what’s required on risk‑management, documentation/conformity assessments, transparency and post‑market monitoring, where liability and enforcement land (fines, board reporting), and the timelines/applicability thresholds? A concise checklist for legal + product teams would be great. Thanks!",
+      "category_info": {
+        "category": "Look up and summarize a law or regulation",
+        "instruction": "When the user asks for a plain-language summary or explanation of a specific law, regulation, or policy. This includes compliance requirements and \"what does this mean\" type questions.",
+        "examples": [
+          "Summarize the key obligations for data controllers under GDPR.",
+          "Explain California's new climate disclosure law in plain English.",
+          "Give me a quick rundown of the SEC's new cybersecurity disclosure rules."
+        ]
+      }
+    },
+    {
+      "question": "Need a concise, plain‑English executive summary of this vendor master services agreement for a board memo — please highlight key commercial obligations, indemnities/liability caps, termination and renewal mechanics, and any atypical IP or data‑security commitments. Flag the top three negotiation priorities and suggest one‑sentence redlines for each.",
+      "category_info": {
+        "category": "Summarize or edit content",
+        "instruction": "When the user requests a summary, rephrasing, polishing, or editing of text they've provided, including emails, memos, or drafts.",
+        "examples": [
+          "Summarize the key obligations and risks in this licensing agreement.",
+          "Can you provide a plain-language summary of this compliance policy for non-legal stakeholders?",
+          "Edit this policy to align with our company's tone of voice while maintaining legal accuracy.",
+          "Can you give me a plain-language summary of the Corporate Transparency Act and how it affects our reporting obligations?"
+        ]
+      }
+    },
+    {
+      "question": "We're scaling and need to add several GCs and senior counsels to our L Suite account — what's the process for adding multiple seats, is billing pro‑rated for mid‑cycle changes, and do you support SSO/SCIM or bulk provisioning for onboarding?",
+      "category_info": {
+        "category": "Ask general questions about the community or membership",
+        "instruction": "When the user asks about membership, platform access, pricing, joining the community, or The Suite itself (e.g., \"How do I invite a colleague?\" or \"What's included in membership?\").",
+        "examples": [
+          "How do I cancel my subscription or pause it temporarily?",
+          "How do I upgrade my account to include more users?",
+          "Can you tell me when my subscription is set to renew?"
+        ]
+      }
+    }
+  ],
+  "total_generated": 50
+}
